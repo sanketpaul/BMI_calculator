@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <input type="number" name="" id="he" placeholder="Height in cm">
+        <input type="number" name="" id="we" placeholder="Weight in kg">
+        <div>
+
+            <button class="btn"  onclick="buttonhandel()">Calculate</button>
+        </div>
+        <div>
+
+            <input type="text" name="" id="calculate_result" readonly="readonly" placeholder="Result" >
+        </div>
+        <table class="table">
+            <tr>
+                <th>BMI</th>
+                <th>Weight status</th>
+            </tr>
+            <tbody >
+                <tr id="r1" >
+                    <td class="r"> Below 18.5 </td>
+                    <td>underweight </td>
+                </tr>
+                <tr id="r2">
+                    <td>18.5 - 24.9</td>
+                    <td>Normal</td>
+
+                </tr>
+                <tr id="r3">
+                    <td>25.0 - 29.9</td>
+                    <td> Over weight</td>
+                </tr>
+                <tr id="r4">
+                    <td>30.0 - above</td>
+                    <td>Obese </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <footer style="background-color:black;color:white;padding:2px;text-align: center;"> &copy;MSD sanket.com|all rights reserved</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

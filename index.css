@@ -1,0 +1,40 @@
+
+.table{
+    /* border: 2px solid black; */
+    margin: 50px auto;
+}
+.r{
+    /* border:1px solid gray; */
+}
+.container{
+    margin: 60px auto;
+    width: 40%;
+    /* border: 1px solid black; */
+    text-align: center;
+    background:linear-gradient(rgb(240, 243, 64),rgb(235, 110, 57) );
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+input{
+    margin: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+.btn:active{
+    transform: scale(.5);
+
+}
+.btn:hover{
+    cursor: pointer;
+}
